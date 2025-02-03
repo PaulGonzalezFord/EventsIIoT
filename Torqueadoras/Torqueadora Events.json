@@ -1,0 +1,160 @@
+{
+    "PartSlideRise": {
+            "PartDataList": "fixture",
+            "Label": "PartSlideRise",
+            "Start": "S1.MECM_PartClampSlide_Rise_CMD",
+            "Finish": "S1.MECM_PartClampSlide_Rise_FDBK"
+    },
+    "PartSlideLower": {
+            "PartDataList": "fixture",
+            "Label": "PartSlideLower",
+            "Start": "S1.MECM_PartClampSlide_Lower_CMD",
+            "Finish": "S1.MECM_PartClampSlide_Lower_FDBK"
+    },
+    "Z1AxisSlideRise": {
+            "PartDataList": "fixture",
+            "Label": "Z1AxisSlideRise",
+            "Start": "S1.MECM_Z1AxisNrSlide_Rise_CMD",
+            "Finish": "S1.MECM_Z1AxisNrSlide_Rise_FDBK"
+    },
+    "Z1AxisSlideLower": {
+            "PartDataList": "fixture",
+            "Label": "Z1AxisSlideLower",
+            "Start": "S1.MECM_Z1AxisNrSlide_Lower_CMD",
+            "Finish": "S1.MECM_Z1AxisNrSlide_Lower_FDBK"
+    },
+    "Z2AxisSlideRise": {
+        "PartDataList": "fixture",
+        "Label": "Z2AxisSlideRise",
+        "Start": "S1.MECM_Z1AxisNrSlide_Rise_CMD",
+        "Finish": "S1.MECM_Z2AxisNrSlide_Rise_FDBK"
+    },
+    "Z2AxisSlideLower": {
+        "PartDataList": "fixture",
+        "Label": "Z2AxisSlideLower",
+        "Start": "S1.MECM_Z2AxisNrSlide_Lower_CMD",
+        "Finish": "S1.MECM_Z2AxisNrSlide_Lower_FDBK"
+    },
+    "TransfSlideAdvance": {
+        "PartDataList": "fixture",
+        "Label": "TransfSlideAdvance",
+        "Start": "S1.MECM_APTransferSlide_Advance_CMD",
+        "Finish": "S1.MECM_APTransferSlide_Advance_FDBK"
+    },
+    "TransfSlideReturn": {
+        "PartDataList": "fixture",
+        "Label": "TransfSlideReturn",
+        "Start": "S1.MECM_APTransferSlide_Return_CMD",
+        "Finish": "S1.MECM_APTransferSlide_Return_FDBK"
+    },
+    "AdapterClamp1": {
+        "PartDataList": "fixture",
+        "Label": "AdapterClamp1",
+        "Start": "S1.MECM_APClamp1_Advance_CMD",
+        "Finish": "S1.MECM_APClamp1_Advance_FDBK"
+    },
+    "AdapterUnclamp1": {
+        "PartDataList": "fixture",
+        "Label": "AdapterUnclamp1",
+        "Start": "S1.MECM_APClamp1_Return_CMD",
+        "Finish": "S1.MECM_APClamp1_Return_FDBK"
+    },
+    "AdapterClamp2": {
+        "PartDataList": "fixture",
+        "Label": "AdapterClamp2",
+        "Start": "S1.MECM_APClamp3_Advance_CMD",
+        "Finish": "S1.MECM_APClamp3_Advance_FDBK"
+    },
+    "AdapterUnclamp2": {
+        "PartDataList": "fixture",
+        "Label": "AdapterUnclamp2",
+        "Start": "S1.MECM_APClamp3_Return_CMD",
+        "Finish": "S1.MECM_APClamp3_Return_FDBK"
+    },
+    "EntryStopperRise": {
+        "PartDataList": "fixture",
+        "Label": "EntryStopperRise",
+        "Start": "S1.MECM_EntrPartStpr_Rise_CMD",
+        "Finish": "S1.MECM_EntrPartStpr_Rise_FDBK"
+    },
+    "EntryStopperLower": {
+        "PartDataList": "fixture",
+        "Label": "EntryStopperLower",
+        "Start": "S1.MECM_EntrPartStpr_Lower_CMD",
+        "Finish": "S1.MECM_EntrPartStpr_Lower_FDBK"
+    },
+    "LocSlideAdvance": {
+        "PartDataList": "fixture",
+        "Label": "LocSlideAdvance",
+        "Start": "S1.MECM_LocatingSlide_Advance_CMD",
+        "Finish": "S1.MECM_LocatingSlide_Advance_FDBK"
+    },
+    "LocSlideReturn": {
+        "PartDataList": "fixture",
+        "Label": "LocSlideReturn",
+        "Start": "S1.MECM_LocatingSlide_Return_CMD",
+        "Finish": "S1.MECM_LocatingSlide_Return_FDBK"
+    },
+    "RFIDSlideAdvance": {
+        "PartDataList": "fixture",
+        "Label": "RFIDSlideAdvance",
+        "Start": "S1.MECM_RFIDSlide_Advance_CMD",
+        "Finish": "S1.MECM_RFIDSlide_Advance_FDBK"
+    },
+    "RFIDSlideReturn": {
+        "PartDataList": "fixture",
+        "Label": "RFIDSlideReturn",
+        "Start": "S1.MECM_RFIDSlide_Return_CMD",
+        "Finish": "S1.MECM_RFIDSlide_Return_FDBK"
+    },
+    "RFID1Read": {
+        "PartDataList": "fixture",
+        "Label": "RFID1Read",
+        "Start": "S1.RFID1_Read_Start",
+        "Finish": "S1.RFID1_Read_Done"
+    },
+    "RFID1Write": {
+        "PartDataList": "fixture",
+        "Label": "RFID1Write",
+        "Start": "S1.RFID1_Write_Start",
+        "Finish": "S1.RFID1_Write_Done"
+    },
+    "X1AxisMoving": {
+            "PartDataList": "",
+            "Label": "X1AxisMoving",
+            "Start": "S1.MECM_Gty_X1_Move_Minus,S1.MECM_Gty_X1_Move_Plus"
+    },
+    "Y1AxisMoving": {
+            "PartDataList": "",
+            "Label": "Y1AxisMoving",
+            "Start": "S1.MECM_Gty_Y1_Move_Minus,S1.MECM_Gty_Y1_Move_Plus"
+    },
+    "X2AxisMoving": {
+            "PartDataList": "",
+            "Label": "X2AxisMoving",
+            "Start": "S1.MECM_Gty_X2_Move_Minus,S1.MECM_Gty_X2_Move_Plus"
+    },
+    "Y2AxisMoving": {
+            "PartDataList": "",
+            "Label": "Y2AxisMoving",
+            "Start": "S1.MECM_Gty_Y2_Move_Minus,S1.MECM_Gty_Y2_Move_Plus"
+    },
+    "TighteningBolt1": {
+            "PartDataList": "fixture",
+            "Label": "TighteningBolt1",
+            "Start1": "S1.MECM_Nutrunner_X1_Bolt1",
+            "Start2": "S1.MECM_Nutrunner_Y1_Bolt1",
+            "Start3": "S1.MECM_Nutrunner_X2_Bolt1",
+            "Start4": "S1.MECM_Nutrunner_Y2_Bolt1",
+            "Start5": "S1.MECM_Nutrunner_Thight_Start"
+    },
+    "TighteningBolt2": {
+            "PartDataList": "fixture",
+            "Label": "TighteningBolt2",
+            "Start1": "S1.MECM_Nutrunner_X1_Bolt2",
+            "Start2": "S1.MECM_Nutrunner_Y1_Bolt2",
+            "Start3": "S1.MECM_Nutrunner_X2_Bolt2",
+            "Start4": "S1.MECM_Nutrunner_Y2_Bolt2",
+            "Start5": "S1.MECM_Nutrunner_Thight_Start"
+    }
+}
