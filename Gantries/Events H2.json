@@ -1,0 +1,223 @@
+{
+    "UnloadM1G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM1G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 1",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadM2G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM2G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 2",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadM3G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM3G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 3",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadM4G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM4G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 4",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadM5G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM5G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 5",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadM6G3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadM6G3",
+        "Start1": "S2.MECM_Gty_Job_Number == 6",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest1": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest1",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest1_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest2": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest2",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest2_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest3",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest3_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest4": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest4",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest4_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest5": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest5",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest5_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadNest6": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadNest6",
+        "Start1": "S2.MECM_Gty_Job_Number == 53",
+        "Start2": "S2.MECM_Gty_Nest6_Sel",
+        "Start3": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadDrawerG3": {
+        "PartDataList": "Gripper3",
+        "Label": "UnloadDrawerG3",
+        "Start1": "S2.MECM_Gty_Drawer_Unload_G2 == 1",
+        "Start2": "S2.MECM_Gty_Job_Number == 75",
+        "Start3": "S2.MECM_Gty_X2_OverSPC_Z3",
+        "Start4": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "LoadDrawerG3": {
+        "PartDataList": "Gripper3Clamped",
+        "Label": "LoadDrawerG3",
+        "Start1": "S2.MECM_Gty_Drawer_Load_G3 == 1",
+        "Start2": "S2.MECM_Gty_Job_Number == 76",
+        "Start3": "S2.MECM_Gty_X2_OverSPC_Z3",
+        "Start4": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "UnloadDrawerG4": {
+        "PartDataList": "Gripper4",
+        "Label": "UnloadDrawerG4",
+        "Start1": "S2.MECM_Gty_Drawer_Unload_G2 == 1",
+        "Start2": "S2.MECM_Gty_Job_Number == 75",
+        "Start3": "S2.MECM_Gty_X1_OverSPC_Z4",
+        "Start4": "!S2.MECM_Gty_Z4_Safe"
+    },
+    "LoadDrawerG4": {
+        "PartDataList": "Gripper4Clamped",
+        "Label": "LoadDrawerG4",
+        "Start1": "S2.MECM_Gty_Drawer_Load_G3 == 1",
+        "Start2": "S2.MECM_Gty_Job_Number == 76",
+        "Start3": "S2.MECM_Gty_X2_OverSPC_Z4",
+        "Start4": "!S2.MECM_Gty_Z4_Safe"
+    },
+    "LoadDSCG3": {
+        "PartDataList": "Gripper3Clamped",
+        "Label": "LoadDSCG2",
+        "Start1": "S2.MECM_Gty_Downstream_Conv_Sel == 1",
+        "Start2": "!S2.MECM_Gty_Z3_Safe"
+    },
+    "LoadDSCG4": {
+        "PartDataList": "Gripper3Clamped",
+        "Label": "LoadDSCG4",
+        "Start1": "S2.MECM_Gty_Downstream_Conv_Sel == 1",
+        "Start2": "!S2.MECM_Gty_Z4_Safe"
+    },
+    "X2AxisMoving": {
+            "PartDataList": "",
+            "Label": "X2AxisMoving",
+            "Start": "S2.MECM_Gty_X2_Move_Minus,S2.MECM_Gty_X2_Move_Plus"
+    },
+    "Z3Lower": {
+            "PartDataList": "Gripper3",
+            "Label": "Z3Lower",
+            "Start": "S2.MECM_Gty_Z3_Move_Minus"
+    },
+    "Z3Raise": {
+            "PartDataList": "Gripper3",
+            "Label": "Z3Raise",
+            "Start": "S2.MECM_Gty_Z3_Move_Plus"
+    },
+    "Z4Lower": {
+            "PartDataList": "Gripper4",
+            "Label": "Z4Lower",
+            "Start": "S2.MECM_Gty_Z4_Move_Minus"
+    },
+    "Z4Raise": {
+            "PartDataList": "Gripper4",
+            "Label": "Z4Raise",
+            "Start": "S2.MECM_Gty_Z4_Move_Plus"
+    },
+    "Grip3Clamp": {
+            "PartDataList": "Gripper3",
+            "Label": "Grip3Clamp",
+            "Start": "S2.MECM_Gty_G3_Clamp_CMD",
+            "Finish": "S2.MECM_Gty_G3_Clamp_FDBK"
+    },
+    "Grip3Unclamp": {
+            "PartDataList": "Gripper3",
+            "Label": "Grip3Unclamp",
+            "Start": "S2.MECM_Gty_G3_Unclamp_CMD",
+            "Finish": "S2.MECM_Gty_G3_Unclamp_FDBK"
+    },
+    "G3Rotate": {
+            "PartDataList": "Gripper3",
+            "Label": "G3Rotate",
+            "Start": "S2.MECM_Gty_C3_Move_Minus,S2.MECM_Gty_C3_Move_Plus"
+    },
+    "Grip4Clamp": {
+            "PartDataList": "Gripper4",
+            "Label": "Grip4Clamp",
+            "Start": "S2.MECM_Gty_G4_Clamp_CMD",
+            "Finish": "S2.MECM_Gty_G4_Clamp_FDBK"
+    },
+    "Grip4Unclamp": {
+            "PartDataList": "Gripper4",
+            "retainUnitID": true,
+            "Label": "Grip4Unclamp",
+            "Start": "S2.MECM_Gty_G4_Unclamp_CMD",
+            "Finish": "S2.MECM_Gty_G4_Unclamp_FDBK"
+    },
+    "G2Rotate": {
+            "PartDataList": "Gripper4",
+            "Label": "G4Rotate",
+            "Start": "S2.MECM_Gty_C4_Move_Minus,S2.MECM_Gty_C4_Move_Plus"
+    },
+    "MovePounce": {
+            "PartDataList": "",
+            "Label": "MovePounce",
+            "StartA": "!S2.MECM_Gty_G3_Loading_Total",
+            "StartB": "!S2.MECM_Gty_G3_Unloading_Total",
+            "StartC": "!S2.MECM_Gty_G4_Loading_Total",
+            "StartD": "!S2.MECM_Gty_G4_Unloading_Total",
+            "StartE": "S2.MECM_Gty_X2_Move_Minus,S2.MECM_Gty_X2_Move_Plus"
+    },
+    "GantryWait": {
+            "PartDataList": "",
+            "Label": "GantryWait",
+            "Start0": "!S2.MECM_Gty_X2_Move_Minus",
+            "Start1": "!S2.MECM_Gty_X2_Move_Plus",
+            "Start2": "!S2.MECM_Gty_Z3_Move_Minus",
+            "Start3": "!S2.MECM_Gty_Z3_Move_Plus",
+            "Start4": "!S2.MECM_Gty_Z4_Move_Minus",
+            "Start5": "!S2.MECM_Gty_Z4_Move_Plus",
+            "Start6": "!S2.MECM_Gty_G3_Clamp_CMD,S2.MECM_Gty_G3_Clamp_FDBK",
+            "Start7": "!S2.MECM_Gty_G3_Unclamp_CMD,S2.MECM_Gty_G3_Unclamp_FDBK",
+            "Start8": "!S2.MECM_Gty_G4_Clamp_CMD,S2.MECM_Gty_G4_Clamp_FDBK",
+            "Start9": "!S2.MECM_Gty_G4_Unclamp_CMD,S2.MECM_Gty_G4_Unclamp_FDBK",
+            "Start10": "S2.MECM_Gty_Job_Number > 1"
+    },
+    "Idle": {
+            "PartDataList": "",
+            "Label": "Idle",
+            "Start0": "!S2.MECM_Gty_X2_Move_Minus",
+            "Start1": "!S2.MECM_Gty_X2_Move_Plus",
+            "Start2": "!S2.MECM_Gty_Z3_Move_Minus",
+            "Start3": "!S2.MECM_Gty_Z3_Move_Plus",
+            "Start4": "!S2.MECM_Gty_Z4_Move_Minus",
+            "Start5": "!S2.MECM_Gty_Z4_Move_Plus",
+            "Start6": "!S2.MECM_Gty_G3_Clamp_CMD,S2.MECM_Gty_G3_Clamp_FDBK",
+            "Start7": "!S2.MECM_Gty_G3_Unclamp_CMD,S2.MECM_Gty_G3_Unclamp_FDBK",
+            "Start8": "!S2.MECM_Gty_G4_Clamp_CMD,S2.MECM_Gty_G4_Clamp_FDBK",
+            "Start9": "!S2.MECM_Gty_G4_Unclamp_CMD,S2.MECM_Gty_G4_Unclamp_FDBK",
+            "Start10": "S2.MECM_Gty_Job_Number <= 1"
+    }
+}

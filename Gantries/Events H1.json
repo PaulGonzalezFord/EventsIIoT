@@ -1,0 +1,409 @@
+{
+    "UnldUSCZ1": {
+        "PartDataList": "Gripper1",
+        "Label": "UnldUSCZ1",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnldUSCZ2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnldUSCZ2",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadM1G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM1G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 1",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM1",
+        "Start1": "S1.MECM_Gty_Job_Number == 11",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "SeatRetryM1": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM1",
+        "Start1": "S1.MECM_Gty_Job_Number == 21",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM1": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTempM1",
+        "Start1": "S1.MECM_Gty_Job_Number == 31",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadM2G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM2G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 2",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM2G1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM2G1",
+        "Start1": "S1.MECM_Gty_Job_Number == 12",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadM2G2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadM2G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 12",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "SeatRetryM2": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM2",
+        "Start1": "S1.MECM_Gty_Job_Number == 22",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM2": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTemp2",
+        "Start1": "S1.MECM_Gty_Job_Number == 32",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadM3G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM3G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 3",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM3G1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM3G1",
+        "Start1": "S1.MECM_Gty_Job_Number == 13",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadM3G2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadM3G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 13",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "SeatRetryM3": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM3",
+        "Start1": "S1.MECM_Gty_Job_Number == 23",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM3": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTempM3",
+        "Start1": "S1.MECM_Gty_Job_Number == 33",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadM4G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM4G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 4",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM4G1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM4G1",
+        "Start1": "S1.MECM_Gty_Job_Number == 14",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadM4G2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadM4G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 14",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "SeatRetryM4": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM4",
+        "Start1": "S1.MECM_Gty_Job_Number == 24",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM4": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTempM4",
+        "Start1": "S1.MECM_Gty_Job_Number == 34",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadM5G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM5G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 5",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM5G1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM5G1",
+        "Start1": "S1.MECM_Gty_Job_Number == 15",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadM5G2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadM5G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 15",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "SeatRetryM5": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM5",
+        "Start1": "S1.MECM_Gty_Job_Number == 25",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM5": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTempM5",
+        "Start1": "S1.MECM_Gty_Job_Number == 35",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadM6G2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadM6G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 6",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadM6G1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadM6G1",
+        "Start1": "S1.MECM_Gty_Job_Number == 16",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadM6G2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadM6G2",
+        "Start1": "S1.MECM_Gty_Job_Number == 16",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "SeatRetryM6": {
+        "PartDataList": "Gripper1",
+        "Label": "SeatRetryM6",
+        "Start1": "S1.MECM_Gty_Job_Number == 26",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "CheckTempM6": {
+        "PartDataList": "Gripper1",
+        "Label": "CheckTempM6",
+        "Start1": "S1.MECM_Gty_Job_Number == 36",
+        "Start2": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadNest1": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest1",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest1_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadNest2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest2",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest2_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadNest3": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest3",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest3_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadNest4": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest4",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest4_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadNest5": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest5",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest5_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadNest6": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadNest6",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest6_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },        
+    "LoadNest1": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest1",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest1_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadNest2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest2",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest2_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadNest3": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest3",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest3_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadNest4": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest4",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest4_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadNest5": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest5",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest5_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadNest6": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadNest6",
+        "Start1": "S1.MECM_Gty_Job_Number == 53",
+        "Start2": "S1.MECM_Gty_Nest6_Sel",
+        "Start3": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "UnloadDrawerG1": {
+        "PartDataList": "Gripper1",
+        "Label": "UnloadDrawerG1",
+        "Start1": "S1.MECM_Gty_Drawer_Unload_G1 == 1",
+        "Start2": "S1.MECM_Gty_Job_Number == 75",
+        "Start3": "S1.MECM_Gty_X1_OverSPC_Z1",
+        "Start4": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "LoadDrawerG1": {
+        "PartDataList": "Gripper1Clamped",
+        "Label": "LoadDrawerG1",
+        "Start1": "S1.MECM_Gty_Drawer_Load_G1 == 1",
+        "Start2": "S1.MECM_Gty_Job_Number == 76",
+        "Start3": "S1.MECM_Gty_X1_OverSPC_Z1",
+        "Start4": "!S1.MECM_Gty_Z1_Safe"
+    },
+    "UnloadDrawerG2": {
+        "PartDataList": "Gripper2",
+        "Label": "UnloadDrawerG2",
+        "Start1": "S1.MECM_Gty_Drawer_Unload_G2 == 1",
+        "Start2": "S1.MECM_Gty_Job_Number == 75",
+        "Start3": "S1.MECM_Gty_X1_OverSPC_Z2",
+        "Start4": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadDrawerG2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadDrawerG2",
+        "Start1": "S1.MECM_Gty_Drawer_Load_G2 == 1",
+        "Start2": "S1.MECM_Gty_Job_Number == 76",
+        "Start3": "S1.MECM_Gty_X1_OverSPC_Z2",
+        "Start4": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "LoadDSCG2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadDSCG2",
+        "Start1": "S1.MECM_Gty_Downstream_Conv_Sel == 1",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "X1AxisMoving": {
+            "PartDataList": "",
+            "Label": "X1AxisMoving",
+            "Start": "S1.MECM_Gty_X1_Move_Minus,S1.MECM_Gty_X1_Move_Plus"
+    },
+    "Z1Lower": {
+            "PartDataList": "Gripper1",
+            "Label": "Z1Lower",
+            "Start": "S1.MECM_Gty_Z1_Move_Minus"
+    },
+    "Z1Raise": {
+            "PartDataList": "Gripper1",
+            "Label": "Z1Raise",
+            "Start": "S1.MECM_Gty_Z1_Move_Plus"
+    },
+    "Z2Lower": {
+            "PartDataList": "Gripper2",
+            "Label": "Z2Lower",
+            "Start": "S1.MECM_Gty_Z2_Move_Minus"
+    },
+    "Z2Raise": {
+            "PartDataList": "Gripper2",
+            "Label": "Z2Raise",
+            "Start": "S1.MECM_Gty_Z2_Move_Plus"
+    },
+    "Grip1Clamp": {
+            "PartDataList": "Gripper1",
+            "Label": "Grip1Clamp",
+            "Start": "S1.MECM_Gty_G1_Clamp_CMD",
+            "Finish": "S1.MECM_Gty_G1_Clamp_FDBK"
+    },
+    "Grip1Unclamp": {
+            "PartDataList": "Gripper1",
+            "Label": "Grip1Unclamp",
+            "Start": "S1.MECM_Gty_G1_Unclamp_CMD",
+            "Finish": "S1.MECM_Gty_G1_Unclamp_FDBK"
+    },
+    "G1Rotate": {
+            "PartDataList": "Gripper1",
+            "Label": "G1Rotate",
+            "Start": "S1.MECM_Gty_C1_Move_Minus,S1.MECM_Gty_C1_Move_Plus"
+    },
+    "Grip2Clamp": {
+            "PartDataList": "Gripper2",
+            "Label": "Grip2Clamp",
+            "Start": "S1.MECM_Gty_G2_Clamp_CMD",
+            "Finish": "S1.MECM_Gty_G2_Clamp_FDBK"
+    },
+    "Grip2Unclamp": {
+            "PartDataList": "Gripper2",
+            "retainUnitID": true,
+            "Label": "Grip2Unclamp",
+            "Start": "S1.MECM_Gty_G2_Unclamp_CMD",
+            "Finish": "S1.MECM_Gty_G2_Unclamp_FDBK"
+    },
+    "G2Rotate": {
+            "PartDataList": "Gripper2",
+            "Label": "G2Rotate",
+            "Start": "S1.MECM_Gty_C2_Move_Minus,S1.MECM_Gty_C2_Move_Plus"
+    },
+    "MovePounce": {
+            "PartDataList": "",
+            "Label": "MovePounce",
+            "StartA": "!S1.MECM_Gty_G1_Loading_Total",
+            "StartB": "!S1.MECM_Gty_G1_Unloading_Total",
+            "StartC": "!S1.MECM_Gty_G2_Loading_Total",
+            "StartD": "!S1.MECM_Gty_G2_Unloading_Total",
+            "StartE": "S1.MECM_Gty_X1_Move_Minus,S1.MECM_Gty_X1_Move_Plus"
+    },
+    "GantryWait": {
+            "PartDataList": "",
+            "Label": "GantryWait",
+            "Start0": "!S1.MECM_Gty_X1_Move_Minus",
+            "Start1": "!S1.MECM_Gty_X1_Move_Plus",
+            "Start2": "!S1.MECM_Gty_Z1_Move_Minus",
+            "Start3": "!S1.MECM_Gty_Z1_Move_Plus",
+            "Start4": "!S1.MECM_Gty_Z2_Move_Minus",
+            "Start5": "!S1.MECM_Gty_Z2_Move_Plus",
+            "Start6": "!S1.MECM_Gty_G1_Clamp_CMD,S1.MECM_Gty_G1_Clamp_FDBK",
+            "Start7": "!S1.MECM_Gty_G1_Unclamp_CMD,S1.MECM_Gty_G1_Unclamp_FDBK",
+            "Start8": "!S1.MECM_Gty_G2_Clamp_CMD,S1.MECM_Gty_G2_Clamp_FDBK",
+            "Start9": "!S1.MECM_Gty_G2_Unclamp_CMD,S1.MECM_Gty_G2_Unclamp_FDBK",
+            "Start10": "S1.MECM_Gty_Job_Number > 1"
+    },
+    "Idle": {
+            "PartDataList": "",
+            "Label": "Idle",
+            "Start0": "!S1.MECM_Gty_X1_Move_Minus",
+            "Start1": "!S1.MECM_Gty_X1_Move_Plus",
+            "Start2": "!S1.MECM_Gty_Z1_Move_Minus",
+            "Start3": "!S1.MECM_Gty_Z1_Move_Plus",
+            "Start4": "!S1.MECM_Gty_Z2_Move_Minus",
+            "Start5": "!S1.MECM_Gty_Z2_Move_Plus",
+            "Start6": "!S1.MECM_Gty_G1_Clamp_CMD,S1.MECM_Gty_G1_Clamp_FDBK",
+            "Start7": "!S1.MECM_Gty_G1_Unclamp_CMD,S1.MECM_Gty_G1_Unclamp_FDBK",
+            "Start8": "!S1.MECM_Gty_G2_Clamp_CMD,S1.MECM_Gty_G2_Clamp_FDBK",
+            "Start9": "!S1.MECM_Gty_G2_Unclamp_CMD,S1.MECM_Gty_G2_Unclamp_FDBK",
+            "Start10": "S1.MECM_Gty_Job_Number <= 1"
+    }
+}
