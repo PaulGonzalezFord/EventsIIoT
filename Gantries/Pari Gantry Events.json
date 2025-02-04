@@ -357,10 +357,16 @@
         "Start3": "S2.MECM_Gty_X2_OverSPC_Z4",
         "Start4": "!S2.MECM_Gty_Z4_Safe"
     },
-    "XAxisMoving": {
+    "LoadDSCG2": {
+        "PartDataList": "Gripper2Clamped",
+        "Label": "LoadDSCG2",
+        "Start1": "S1.MECM_Gty_Downstream_Conv_Sel == 1",
+        "Start2": "!S1.MECM_Gty_Z2_Safe"
+    },
+    "X1AxisMoving": {
             "PartDataList": "",
-            "Label": "XAxisMoving",
-            "Start": "S1.MECM_Gty_X_Move_Minus,S1.MECM_Gty_X_Move_Plus"
+            "Label": "X1AxisMoving",
+            "Start": "S1.MECM_Gty_X1_Move_Minus,S1.MECM_Gty_X1_Move_Plus"
     },
     "Z1Lower": {
             "PartDataList": "Gripper1",
